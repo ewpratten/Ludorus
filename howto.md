@@ -3,7 +3,13 @@ Ludorus is currently under development and can not be played. Sorry.
 
 Welcome to the town of Ludorus (loo-do-rus)! You have just moved in to your new cabin, and as a sort of housewarming gift, the city council has given you **100** coins. To check your balance, use the `?balance` command in chat. The chat is how you do everything in Ludorus and this guide exsists to give you a helping hand with the many commands used to interact with the game.
 
-You don't get to rest quite yet though. Your coins won't last you long
+## Setting up shop
+Making money is good, especially since rent is due soon. To set up a shop, use the `?storeup` command. Your first store is free, and free forever. For every store you want to start after that, you must pay your previous store's cost + 15000 coins. Now you must start selling your product. There are a few classes of stores, and they each have their own requirements:
+| Occupation | What they do |
+| -- | -- |
+| Farmer | Grows crops and sells at market |
+| Baker | Buys farmer's crops from market to make basic food like bread |
+
 
 ## The lottery
 Want to test your luck? Why not give the lottery a try? The draw for the *ludicrous Ludorus* occurs every wednsday at 10:00pm master time (LMT). One ticket is only 5 coins, and the prizes will be announced in weekly paper. To enter, buy a ticket using the `?buy lottoticket` command.
