@@ -5,6 +5,7 @@ Welcome to the town of Ludorus (loo-do-rus)! You have just moved in to your new 
 
 ## Setting up shop
 Making money is good, especially since rent is due soon. To set up a shop, use the `?storeup` command. Your first store is free, and free forever. For every store you want to start after that, you must pay your previous store's cost + 15000 coins. Now you must start selling your product. There are a few classes of stores, and they each have their own requirements:
+
 | Occupation | What they do |
 | -- | -- |
 | Farmer | Grows crops and sells at market |
