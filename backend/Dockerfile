@@ -1,6 +1,6 @@
 from python:3
 
-workdir /app
+workdir /usr/src/app
 COPY requirements.txt ./
 run pip3 install -r requirements.txt
 

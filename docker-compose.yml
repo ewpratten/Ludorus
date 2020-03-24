@@ -4,7 +4,8 @@ services:
     build: 
       context: backend
     volumes: 
-      - ./backend:/usr/src/app
+      - ./backend:/usr/src/app/backend
+      - ./.env/config:/usr/src/app/.env/config
   frontend:
     image: abiosoft/caddy
     volumes:
