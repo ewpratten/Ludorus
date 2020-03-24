@@ -1,0 +1,4 @@
+ - Add twitch auth
+ - Add a DB to store data locally
+ - Add a chat interaction service
+ 

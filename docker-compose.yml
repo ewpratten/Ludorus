@@ -1,0 +1,17 @@
+version: "3"
+services:
+  backend:
+    build: 
+      context: backend
+    volumes: 
+      - ./backend:/usr/src/app
+  frontend:
+    image: abiosoft/caddy
+    volumes:
+      - ./frontend/Caddyfile:/etc/Caddyfile
+      - ./frontend/www:/var/www
+      - ./.env/caddy:/root/.caddy
+    ports:
+      - 2015:2015
+    links:
+      - backend:backend
