@@ -1,5 +1,5 @@
-from backend.twitch.TwitchAuth import getAuth
-from backend.logger import log
+from .twitch.TwitchAuth import getAuth
+from .logger import log
 
 # Perform pre-start checks
 log("Main", "Performing pre-start checks")

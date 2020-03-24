@@ -11,10 +11,10 @@ class TwitchAuth(object):
     def __init__(self):
 
         # Load the JSON config from the user
-        with load(open(".env/config/config.json", "r")) as j:
-            self.tmi = j["oauth"]["TMI"]
-            self.client_key = j["oauth"]["client_key"]
-            self.username = j["username"]
+        j = load(open(".env/config/config.json", "r"))
+        self.tmi = j["oauth"]["TMI"]
+        self.client_key = j["oauth"]["client"]
+        self.username = j["username"]
 
         # Ensure there is data from the user
         assert self.tmi is not ""
