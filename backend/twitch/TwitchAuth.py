@@ -1,4 +1,5 @@
 from json import load
+from ..logger import log
 
 # Twitch authentication data
 
@@ -24,4 +25,6 @@ class TwitchAuth(object):
 
 # Define a getter for a global auth instance
 _globalAuth = TwitchAuth()
-def getAuth() -> TwitchAuth: return _globalAuth
+def getAuth(service:str) -> TwitchAuth: 
+    log("TwitchAuth", f"{service} now has auth access")
+    return _globalAuth
